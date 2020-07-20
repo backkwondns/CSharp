@@ -1,0 +1,163 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PreProcessing_API_Call/1.0.0": {
+        "dependencies": {
+          "Deedle": "2.2.0",
+          "MathNet.Filtering": "0.7.0",
+          "MathNet.Numerics": "4.11.0",
+          "RestSharp": "106.11.4"
+        },
+        "runtime": {
+          "PreProcessing_API_Call.dll": {}
+        }
+      },
+      "Deedle/2.2.0": {
+        "dependencies": {
+          "FSharp.Core": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Deedle.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "FSharp.Core/4.5.2": {
+        "runtime": {
+          "lib/netstandard1.6/FSharp.Core.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "2018.7.27.2"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.6/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard1.6/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.6/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/netstandard1.6/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.6/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.6/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.6/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.6/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.6/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard1.6/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard1.6/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.6/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard1.6/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.6/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "MathNet.Filtering/0.7.0": {
+        "dependencies": {
+          "MathNet.Numerics": "4.11.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Filtering.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        }
+      },
+      "MathNet.Numerics/4.11.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.11.0.0",
+            "fileVersion": "4.11.0.0"
+          }
+        }
+      },
+      "RestSharp/106.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.4.0",
+            "fileVersion": "106.11.4.0"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "PreProcessing_API_Call/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Deedle/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QV0z/4ItgYnvTl5AkJGykSw2sEpNB5gEOlLh5ggQ6APXlwd9p9FZEWuPgQ7vjR3f9e8TWnrGUOLK1PkmPHgF6g==",
+      "path": "deedle/2.2.0",
+      "hashPath": "deedle.2.2.0.nupkg.sha512"
+    },
+    "FSharp.Core/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apbdQOjzsjQ637kTWQuW29jqwY18jsHMyNC5A+TPJZKFEIE2cIfQWf3V7+mXrxlbX69BueYkv293/g70wuXuRw==",
+      "path": "fsharp.core/4.5.2",
+      "hashPath": "fsharp.core.4.5.2.nupkg.sha512"
+    },
+    "MathNet.Filtering/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ghm/RaCS4+29PO1XGn83shZSwDJzAGxys60xh0QZH8Dz3dqxiTIwal8kksU8vcp3GtNVRDtSgM7O3FLuhep9vw==",
+      "path": "mathnet.filtering/0.7.0",
+      "hashPath": "mathnet.filtering.0.7.0.nupkg.sha512"
+    },
+    "MathNet.Numerics/4.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nmr86AZMGgLprxygcew8Q2BOlPbSYGIkponJMRBoO+CVohkE/CqYJ2KKMThVJUJ0obJxoYI7agCRe61XDVgZuw==",
+      "path": "mathnet.numerics/4.11.0",
+      "hashPath": "mathnet.numerics.4.11.0.nupkg.sha512"
+    },
+    "RestSharp/106.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vx35q52cM3UQNOiN3UqSQ9U7I5UeoyzVmjsWKQxOxn6FVu+n01+SNwhxc/jvf92WPBmmwzTV4VYTeTg4KviJdA==",
+      "path": "restsharp/106.11.4",
+      "hashPath": "restsharp.106.11.4.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}
